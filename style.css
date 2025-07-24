@@ -279,7 +279,7 @@ footer{
     border-radius: 5px;
 }
 .body-bottom3{
-    padding: 5px 0px;
+    padding: 2px 0px;
     margin: 5px 12px;
 }
 .body-bottom3 p{
@@ -287,16 +287,20 @@ footer{
     font-size: 14px;
 }
 .body-bottom3 ul{
+    flex-direction: column;
+    display: flex;
     text-align: center;
-    padding: 0px 5px;
+    
 }
 .body-bottom3 ul li{
-    font-size: 13px;
+    font-size: 10px;
+    padding: 2px;
+    margin-bottom: 4px;
 }
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 480px) and (max-width: 780px){
     .navbar{
     margin: 20px;
     padding: 10px;
@@ -310,15 +314,13 @@ footer{
 }
 .navbar-center{
     font-size: 15px;
-    padding: 0px 5px;
+    padding: 0px 2px;
 }
 .navbar-center-dropdown select{
     font-size: 15px;
 }
 .navbar-right{
-    padding: 5px 5px;
-    margin-right: 5px;
-    border-radius: 5px;
+    display: none;
 }
 .navbar-right button{
     border: none;
@@ -343,11 +345,15 @@ footer{
 .body-bottom2{
     padding: 5px 0px;
     margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .search-area{
     display: flex;
-    width: 250px;
+    width: 400px;
     height: 20px;
     border-radius: 10px;
     border: 1px solid rgb(173, 172, 172);
@@ -363,15 +369,14 @@ footer{
     font-size: 14px;
 }
 .drop-box form select{
-    margin: 0px 5px;
+    width: 400px;
+    margin: 10px 0px 5px 5px;
     border-radius: 10px;
     font-size: 14px;
 }
 .search-button button{    
-    padding: 12px;
+    padding: 10px 15px;
     font-size: 15px;
     border-radius: 5px;
 }
-
 }
-
